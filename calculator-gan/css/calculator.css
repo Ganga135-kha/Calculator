@@ -1,0 +1,106 @@
+body{
+    font-family: 'Chelsea Market', cursive;
+    background: linear-gradient(to right top,rgba(53, 45, 45, 0.575),rgba(41, 37, 37, 0.575)), url(../img/bg-img.jpg) no-repeat;
+}
+
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../img/bg-img.jpg) ;  */
+}
+#calculator{
+    width: 320px;
+    height: 520px;
+    background-color:#eaedefd2;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow:-6px -6px 9px #eaedefd2, 6px 6px 9px rgba(0, 0, 0, 0.4); ;
+
+}
+
+#result{
+    height: 100px;
+    border: 1px solid rgba(128,128,128,0.555);
+    border-radius: 5px;
+    top:10px;
+    margin: 0px 20px 10px 20px ;
+    position: relative;
+    box-shadow: -6px -6px 9px #eaedefd2,  6px 6px 9px rgba(0, 0, 0, 0.4);
+
+}
+
+#history{
+    text-align: right;
+    height: 20px;
+    margin: 0 15px;
+    padding-top: 15px;
+    font-size: 15px;
+    color: #797676;
+
+}
+
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 10px;
+    font-size: 30px;
+}
+
+#keyboard{
+    height: 400px;
+    margin: 20px 0;
+}
+
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.589);
+}
+
+
+.number,.empty{
+    background-color: #C6C7C9;
+}
+
+.number, .operator{
+    box-shadow: -6px -6px 9px #eaedefd2, 6px 6px 9px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px;
+}
+
+.operator:focus, .number:focus, .empty:focus{
+    outline: 0;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color:#20b2aa;
+}
+button:nth-child(8){
+	font-size: 20px;
+	background-color: #ffa500;
+}
+button:nth-child(12){
+	font-size: 20px;
+	background-color: #f08080;
+}
+button:nth-child(16){
+	font-size: 20px;
+	background-color: #7d93e0;
+}
+button:nth-child(20){
+	font-size: 20px;
+	background-color: #9477af;
+}
